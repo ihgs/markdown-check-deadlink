@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict';
 
 var fs = require('fs');
@@ -6,7 +7,6 @@ var chalk = require('chalk');
 var Deadlink = require('deadlink'),
     deadlink = Deadlink();
 var Git = require('nodegit');
-var recursive = require('recursive-readdir');
 var marked = require('marked');
 
 function links(markdown){
