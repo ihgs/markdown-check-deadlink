@@ -1,0 +1,29 @@
+{
+  "name": "markdown-check-deadlink",
+  "version": "0.1.0",
+  "description": "check deadlink in markdown",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihgs/markdown-check-deadlink.git"
+  },
+  "keywords": [
+    "markdown",
+    "deadlink"
+  ],
+  "author": "ihgs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ihgs/markdown-check-deadlink/issues"
+  },
+  "homepage": "https://github.com/ihgs/markdown-check-deadlink#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "deadlink": "^1.1.3",
+    "marked": "^0.3.6",
+    "nodegit": "^0.16.0"
+  }
+}
