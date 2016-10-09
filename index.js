@@ -80,9 +80,11 @@ Git.Repository.discover(".", 0, "")
     });
     walker.on("end", function(trees){
       if (has_error){
+        console.log();
         console.log(chalk.red("Deadlink exists."))
         process.exit(1);
       } else{
+        console.log();
         console.log(chalk.green("All OK."))
       }
     })
